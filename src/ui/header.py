@@ -260,11 +260,14 @@ class Header(QWidget):
         QMessageBox.about(
             self,
             "Über tiptoi® Manager Linux",
-            "<b>tiptoi® Manager für Linux</b><br>"
-            "Version 5.0.2 (Native Qt6 / Python 3.14)<br><br>"
-            "1:1 Nativer Nachbau der offiziellen Ravensburger Software.<br>"
-            "Unterstützt tiptoi® Stifte aller Generationen (Rev1 - Rev4 / WLAN).<br><br>"
-            "Entwickelt für Linux ohne Wine!"
+            "<h3>tiptoi® Manager für Linux</h3>"
+            "<b>Version 5.0.2</b> (Nativer Linux-Port)<br><br>"
+            "Dies ist eine <b>1:1 Kopie / Nachbildung</b> des offiziellen tiptoi® Managers für Linux-Systeme.<br><br>"
+            "<b>Rechtlicher Hinweis / Urheberrecht:</b><br>"
+            "Sämtliche Bild-, Ton- und Grafik-Assets (Logos, Icons, Stiftmodelle, Produktkatalog) "
+            "sowie die Marken <i>tiptoi®</i> und <i>Ravensburger</i> sind geistiges Eigentum und "
+            "<b>Copyright der Ravensburger Verlag GmbH</b>.<br><br>"
+            "Inoffizielles Community-Projekt für native Linux-Kompatibilität ohne Wine."
         )
 
     def on_login_clicked(self):

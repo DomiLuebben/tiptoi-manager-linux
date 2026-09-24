@@ -1,6 +1,11 @@
 """
 tiptoi® Manager for Linux
-Reverse engineered 1:1 replica of Ravensburger tiptoi® Manager.
+1:1 replica of the official Ravensburger tiptoi® Manager.
+
+Rechtlicher Hinweis / Urheberrecht:
+Dies ist eine inoffizielle 1:1 Nachbildung der Software für Linux-Systeme.
+Sämtliche Urheberrechte (Copyright) an allen verwendeten Bild-, Ton- und Grafik-Assets
+sowie die Marken tiptoi® und Ravensburger gehören der Ravensburger Verlag GmbH.
 """
 
 import sys

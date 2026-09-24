@@ -1,9 +1,15 @@
 # tiptoi® Manager für Linux (1:1 Reverse Engineered)
 
-[![License: Custom](https://img.shields.io/badge/License-Proprietary%20Assets-orange.svg)](#lizenz)
+[![License: Custom](https://img.shields.io/badge/License-Proprietary%20Assets-orange.svg)](#-lizenz--urheberrechtshinweis-disclaimer)
 [![Python: 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/)
 [![UI: PyQt6](https://img.shields.io/badge/UI-PyQt6-green.svg)](https://riverbankcomputing.com/software/pyqt/)
 [![Platform: Linux](https://img.shields.io/badge/platform-Arch%20%7C%20Ubuntu%20%7C%20Fedora-blue.svg)](https://archlinux.org/)
+
+> [!IMPORTANT]
+> **Rechtlicher Hinweis & Urheberrecht (Copyright):**
+> Bei dieser Anwendung handelt es sich um eine **1:1 Kopie / Nachbildung** der offiziellen Benutzeroberfläche des Ravensburger tiptoi® Managers für Linux-Systeme.
+> **Sämtliche Urheberrechte (Copyright) an allen verwendeten Bild-, Ton- und Grafik-Assets (Logos, Icons, Stift-Renderings, Hintergründe, Produktcover) sowie an den Marken *tiptoi®* und *Ravensburger* liegen vollumfänglich und uneingeschränkt bei der Ravensburger Verlag GmbH.**
+> Dieses Projekt ist ein privates, inoffizielles Open-Source-Projekt zur Interoperabilität für Linux-Nutzer und steht in keinerlei geschäftlicher oder offizieller Verbindung zur Ravensburger Verlag GmbH.
 
 Ein nativer, pixelgenauer Linux-Port des offiziellen Ravensburger **tiptoi® Managers (v5.2)**.
 
@@ -116,8 +122,11 @@ Im Projektverzeichnis ausführen:
 
 ---
 
-## ⚖️ Lizenz & Urheberrechtshinweis
+## ⚖️ Lizenz & Urheberrechtshinweis (Disclaimer)
 
-- Der Python-Quellcode dieses Projekts steht für Open-Source-Zwecke zur Verfügung.
-- Die Marken **tiptoi®** und **Ravensburger** sowie alle Logos, Sounds, Produktcover und Grafiken sind eingetragene Warenzeichen bzw. geistiges Eigentum der **Ravensburger Verlag GmbH**.
-- Dieses Projekt ist ein inoffizielles Community-Projekt und steht in keiner Verbindung zur Ravensburger Verlag GmbH.
+- **1:1 Kopie / Portierung**: Diese Anwendung ist eine rein technische und visuelle 1:1 Nachbildung der Originalsoftware für Linux-Systeme, um tiptoi® Stifte ohne Wine oder Windows betreiben zu können.
+- **Copyright der Assets**: **Sämtliche Urheberrechte (Copyright) an allen verwendeten Grafiken, Icons, Sprites, 3D-Stift-Illustrationen, Buchcovern, Produktbeschreibungen, Markenzeichen und Logos liegen allein und uneingeschränkt bei der Ravensburger Verlag GmbH.**
+- **Markenrecht**: **tiptoi®** und **Ravensburger** sind eingetragene Schutzmarken der Ravensburger Verlag GmbH.
+- **Keine geschäftliche Verbindung**: Dieses Projekt ist ein inoffizielles Community-Projekt und steht in keiner Verbindung zur Ravensburger Verlag GmbH.
+- **Zweck**: Ausschließlich private, nicht-kommerzielle Nutzung zur Interoperabilität gemäß § 69e UrhG (Dekompilierung zur Gewährleistung der Interoperabilität eines unabhängig geschaffenen Computerprogramms).
+- **Quellcode**: Der eigenständig entwickelte Python-Quellcode steht für Open-Source-Zwecke zur Verfügung.

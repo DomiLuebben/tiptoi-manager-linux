@@ -108,6 +108,32 @@ class HelpScreen(QWidget):
         linux_layout.addWidget(linux_desc)
         layout.addWidget(linux_frame)
 
+        # Copyright & 1:1 Note Card
+        legal_frame = QFrame()
+        legal_frame.setStyleSheet("""
+            QFrame {
+                background-color: #fffbeb;
+                border: 1px solid #fef3c7;
+                border-radius: 8px;
+                padding: 14px;
+            }
+        """)
+        legal_layout = QVBoxLayout(legal_frame)
+        legal_title = QLabel("Rechtlicher Hinweis: 1:1 Kopie & Urheberrecht")
+        legal_title.setStyleSheet("color: #92400e; font-weight: bold; font-size: 13px;")
+        legal_layout.addWidget(legal_title)
+
+        legal_desc = QLabel(
+            "Diese Linux-Anwendung ist eine rein technische und optische 1:1 Kopie der offiziellen Benutzeroberfläche. "
+            "Sämtliche Urheberrechte (Copyright) an allen verwendeten Grafik-, Bild- und Audio-Assets "
+            "(einschließlich Logos, Icons, Produktkatalog-Cover und Stiftmodelle) liegen allein und uneingeschränkt bei der Ravensburger Verlag GmbH. "
+            "tiptoi® und Ravensburger sind eingetragene Schutzmarken der Ravensburger Verlag GmbH."
+        )
+        legal_desc.setStyleSheet("color: #b45309; font-size: 11px;")
+        legal_desc.setWordWrap(True)
+        legal_layout.addWidget(legal_desc)
+        layout.addWidget(legal_frame)
+
         layout.addStretch()
         scroll.setWidget(container)
         main_layout.addWidget(scroll)

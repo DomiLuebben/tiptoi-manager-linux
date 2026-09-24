@@ -1,8 +1,10 @@
 # Maintainer: DomiLuebben <https://github.com/DomiLuebben>
+# Hinweis: Dies ist ein inoffizieller 1:1 Nachbau für Linux.
+# Sämtliche Urheberrechte an den Assets liegen bei der Ravensburger Verlag GmbH.
 pkgname=tiptoi-manager
 pkgver=5.0.2
 pkgrel=1
-pkgdesc="Nativer tiptoi® Manager für Linux (1:1 Nachbau im Originaldesign)"
+pkgdesc="Nativer tiptoi® Manager für Linux (1:1 Nachbau, alle Assets © Ravensburger Verlag GmbH)"
 arch=('any')
 url="https://github.com/DomiLuebben/tiptoi-manager-linux"
 license=('custom:proprietary')
