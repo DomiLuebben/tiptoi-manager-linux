@@ -1,0 +1,30 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments
+.venv/
+env/
+venv/
+
+# Build and Packaging
+build/
+dist/
+*.egg-info/
+pkg/
+src_pkg/
+*.pkg.tar.zst
+*.pkg.tar.xz
+*.pkg.tar.gz
+
+# Local mock downloads & cache
+mock_pen/*.gme
+!mock_pen/.tiptoi.log
+.cache/
+
+# OS / Editor
+.DS_Store
+.vscode/
+.idea/

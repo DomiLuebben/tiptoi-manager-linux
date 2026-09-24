@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=tiptoi® Manager
+Comment=Offizieller tiptoi® Manager für Linux (1:1 Reverse-Engineered)
+Exec=tiptoi-manager
+Icon=tiptoi-manager
+Terminal=false
+Type=Application
+Categories=Utility;AudioVideo;Education;
+Keywords=tiptoi;ravensburger;audio;stifte;
+StartupWMClass=tiptoi® Manager
